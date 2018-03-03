@@ -1,0 +1,50 @@
+DIGEST 48f561ef0bdcebe509a84068acbf1114
+FTop.ProofObjectsTest
+R61:72 Top.ProofObjects <> <> lib
+ax 85:91 <> MISSING
+mod 111:115 <> Check
+R179:185 Top.ProofObjectsTest <> MISSING defax
+R179:185 Top.ProofObjectsTest <> MISSING defax
+R448:452 Top.ProofObjectsTest Check <> mod
+R471:482 Top.ProofObjects <> <> lib
+R505:508 Coq.Init.Logic <> True ind
+R647:650 Top.ProofObjects <> ev_8 prfax
+R654:655 Top.IndProp <> ev ind
+R647:650 Top.ProofObjects <> ev_8 prfax
+R654:655 Top.IndProp <> ev ind
+R709:712 Top.ProofObjects <> ev_8 prfax
+R720:723 Coq.Init.Logic <> True ind
+R796:800 Top.ProofObjects <> ev_8' prfax
+R804:805 Top.IndProp <> ev ind
+R796:800 Top.ProofObjects <> ev_8' prfax
+R804:805 Top.IndProp <> ev ind
+R859:863 Top.ProofObjects <> ev_8' prfax
+R871:874 Coq.Init.Logic <> True ind
+R1059:1084 Top.ProofObjects <> equality__leibniz_equality prfax
+R1114:1114 Top.ProofObjectsTest <> X var
+R1123:1126 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1139:1142 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1138:1138 Top.ProofObjectsTest <> X var
+R1152:1155 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1156:1156 Top.ProofObjectsTest <> P var
+R1158:1158 Top.ProofObjectsTest <> y var
+R1149:1149 Top.ProofObjectsTest <> P var
+R1151:1151 Top.ProofObjectsTest <> x var
+R1119:1121 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1118:1118 Top.ProofObjectsTest <> x var
+R1122:1122 Top.ProofObjectsTest <> y var
+R1059:1084 Top.ProofObjects <> equality__leibniz_equality prfax
+R1114:1114 Top.ProofObjectsTest <> X var
+R1123:1126 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1139:1142 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1138:1138 Top.ProofObjectsTest <> X var
+R1152:1155 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1156:1156 Top.ProofObjectsTest <> P var
+R1158:1158 Top.ProofObjectsTest <> y var
+R1149:1149 Top.ProofObjectsTest <> P var
+R1151:1151 Top.ProofObjectsTest <> x var
+R1119:1121 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1118:1118 Top.ProofObjectsTest <> x var
+R1122:1122 Top.ProofObjectsTest <> y var
+R1210:1235 Top.ProofObjects <> equality__leibniz_equality prfax
+R1243:1246 Coq.Init.Logic <> True ind

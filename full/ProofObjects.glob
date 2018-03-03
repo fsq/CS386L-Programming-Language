@@ -1,0 +1,296 @@
+DIGEST 65a9d677a07daf87e8e2dff3df0788e5
+FTop.ProofObjects
+R117:123 Top.IndProp <> <> lib
+R1806:1807 Top.IndProp <> ev ind
+R2820:2824 Top.IndProp <> ev_SS constr
+prf 3187:3190 <> ev_4
+R3194:3195 Top.IndProp <> ev ind
+R3215:3219 Top.IndProp <> ev_SS constr
+R3215:3219 Top.IndProp <> ev_SS constr
+R3228:3232 Top.IndProp <> ev_SS constr
+R3228:3232 Top.IndProp <> ev_SS constr
+R3241:3244 Top.IndProp <> ev_0 constr
+R3241:3244 Top.IndProp <> ev_0 constr
+R3413:3416 Top.ProofObjects <> ev_4 thm
+R3600:3604 Top.IndProp <> ev_SS constr
+R3609:3613 Top.IndProp <> ev_SS constr
+R3617:3620 Top.IndProp <> ev_0 constr
+prf 4624:4628 <> ev_4'
+R4631:4632 Top.IndProp <> ev ind
+R4653:4657 Top.IndProp <> ev_SS constr
+R4662:4666 Top.IndProp <> ev_SS constr
+R4670:4673 Top.IndProp <> ev_0 constr
+R4653:4657 Top.IndProp <> ev_SS constr
+R4662:4666 Top.IndProp <> ev_SS constr
+R4670:4673 Top.IndProp <> ev_0 constr
+prf 5332:5337 <> ev_4''
+R5341:5342 Top.IndProp <> ev ind
+R5376:5380 Top.IndProp <> ev_SS constr
+R5376:5380 Top.IndProp <> ev_SS constr
+R5405:5409 Top.IndProp <> ev_SS constr
+R5405:5409 Top.IndProp <> ev_SS constr
+R5434:5437 Top.IndProp <> ev_0 constr
+R5434:5437 Top.IndProp <> ev_0 constr
+def 6164:6170 <> ev_4'''
+R6174:6175 Top.IndProp <> ev ind
+R6184:6188 Top.IndProp <> ev_SS constr
+R6193:6197 Top.IndProp <> ev_SS constr
+R6201:6204 Top.IndProp <> ev_0 constr
+R6347:6350 Top.ProofObjects <> ev_4 thm
+R6412:6416 Top.ProofObjects <> ev_4' thm
+R6478:6483 Top.ProofObjects <> ev_4'' thm
+R6545:6551 Top.ProofObjects <> ev_4''' def
+prf 6731:6734 <> ev_8
+R6738:6739 Top.IndProp <> ev ind
+def 6794:6798 <> ev_8'
+R6802:6803 Top.IndProp <> ev ind
+prf 7514:7521 <> ev_plus4
+R7539:7542 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7543:7544 Top.IndProp <> ev ind
+R7548:7550 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R7551:7551 Top.ProofObjects <> n var
+R7535:7536 Top.IndProp <> ev ind
+R7538:7538 Top.ProofObjects <> n var
+R7591:7595 Top.IndProp <> ev_SS constr
+R7591:7595 Top.IndProp <> ev_SS constr
+R7606:7610 Top.IndProp <> ev_SS constr
+R7606:7610 Top.IndProp <> ev_SS constr
+def 7932:7940 <> ev_plus4'
+R7958:7961 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7962:7963 Top.IndProp <> ev ind
+R7967:7969 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R7970:7970 Top.ProofObjects <> n var
+R7954:7955 Top.IndProp <> ev ind
+R7957:7957 Top.ProofObjects <> n var
+R7987:7989 Coq.Init.Datatypes <> nat ind
+R8004:8005 Top.IndProp <> ev ind
+R8007:8007 Top.ProofObjects <> n var
+R8017:8021 Top.IndProp <> ev_SS constr
+R8034:8038 Top.IndProp <> ev_SS constr
+R8042:8042 Top.ProofObjects <> H var
+R8040:8040 Top.ProofObjects <> n var
+R8024:8024 Coq.Init.Datatypes <> S constr
+R8027:8027 Coq.Init.Datatypes <> S constr
+R8029:8029 Top.ProofObjects <> n var
+def 8270:8279 <> ev_plus4''
+R8286:8288 Coq.Init.Datatypes <> nat ind
+R8296:8297 Top.IndProp <> ev ind
+R8299:8299 Top.ProofObjects <> n var
+R8324:8325 Top.IndProp <> ev ind
+R8329:8331 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R8332:8332 Top.ProofObjects <> n var
+R8340:8344 Top.IndProp <> ev_SS constr
+R8357:8361 Top.IndProp <> ev_SS constr
+R8365:8365 Top.ProofObjects <> H var
+R8363:8363 Top.ProofObjects <> n var
+R8347:8347 Coq.Init.Datatypes <> S constr
+R8350:8350 Coq.Init.Datatypes <> S constr
+R8352:8352 Top.ProofObjects <> n var
+R8376:8385 Top.ProofObjects <> ev_plus4'' def
+def 9372:9379 <> ev_plus2
+R9415:9416 Top.IndProp <> ev ind
+R9418:9418 Top.ProofObjects <> n var
+R9422:9423 Top.IndProp <> ev ind
+R9427:9429 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R9426:9426 Top.ProofObjects <> n var
+def 9849:9857 <> ev_plus2'
+R9893:9894 Top.IndProp <> ev ind
+R9896:9896 Top.ProofObjects <> n var
+R9900:9901 Top.IndProp <> ev ind
+R9905:9907 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R9904:9904 Top.ProofObjects <> n var
+def 9993:10002 <> ev_plus2''
+R10030:10033 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10034:10035 Top.IndProp <> ev ind
+R10039:10041 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R10038:10038 Top.ProofObjects <> n var
+R10026:10027 Top.IndProp <> ev ind
+R10029:10029 Top.ProofObjects <> n var
+def 10482:10485 <> add1
+R10492:10495 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10496:10498 Coq.Init.Datatypes <> nat ind
+R10489:10491 Coq.Init.Datatypes <> nat ind
+R10528:10528 Coq.Init.Datatypes <> S constr
+R10528:10528 Coq.Init.Datatypes <> S constr
+R10568:10571 Top.ProofObjects <> add1 def
+R10645:10648 Top.ProofObjects <> add1 def
+mod 11779:11783 <> Props
+mod 12087:12089 <> Props.And
+ind 12103:12105 Props.And and
+constr 12132:12135 Props.And conj
+R12140:12143 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12145:12148 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12149:12151 Top.ProofObjects <> and ind
+R12155:12155 Top.ProofObjects <> Q var
+R12153:12153 Top.ProofObjects <> P var
+R12144:12144 Top.ProofObjects <> Q var
+R12139:12139 Top.ProofObjects <> P var
+R12163:12165 Top.ProofObjects Props.And <> mod
+R12375:12378 Top.Poly <> prod ind
+prf 12871:12878 Props and_comm
+R12907:12911 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R12902:12905 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R12901:12901 Top.ProofObjects <> P var
+R12906:12906 Top.ProofObjects <> Q var
+R12913:12916 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R12912:12912 Top.ProofObjects <> Q var
+R12917:12917 Top.ProofObjects <> P var
+def 13284:13296 Props and_comm'_aux
+R13308:13311 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R13307:13307 Top.ProofObjects <> P var
+R13312:13312 Top.ProofObjects <> Q var
+R13326:13326 Top.ProofObjects <> H var
+R13337:13340 Coq.Init.Logic <> conj constr
+R13351:13354 Coq.Init.Logic <> conj constr
+def 13381:13389 Props and_comm'
+R13403:13407 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R13398:13401 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R13397:13397 Top.ProofObjects <> P var
+R13402:13402 Top.ProofObjects <> Q var
+R13409:13412 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R13408:13408 Top.ProofObjects <> Q var
+R13413:13413 Top.ProofObjects <> P var
+R13420:13423 Coq.Init.Logic <> conj constr
+R13446:13458 Top.ProofObjects Props and_comm'_aux def
+R13462:13462 Top.ProofObjects <> P var
+R13460:13460 Top.ProofObjects <> Q var
+R13426:13438 Top.ProofObjects Props and_comm'_aux def
+R13442:13442 Top.ProofObjects <> Q var
+R13440:13440 Top.ProofObjects <> P var
+def 13605:13613 Props conj_fact
+R13637:13640 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R13647:13650 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R13652:13655 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R13651:13651 Top.ProofObjects <> P var
+R13656:13656 Top.ProofObjects <> R var
+R13642:13645 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R13641:13641 Top.ProofObjects <> Q var
+R13646:13646 Top.ProofObjects <> R var
+R13632:13635 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R13631:13631 Top.ProofObjects <> P var
+R13636:13636 Top.ProofObjects <> Q var
+mod 13876:13877 <> Props.Or
+ind 13891:13892 Props.Or or
+constr 13919:13927 Props.Or or_introl
+constr 13945:13953 Props.Or or_intror
+R13932:13935 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R13936:13937 Top.ProofObjects <> or ind
+R13941:13941 Top.ProofObjects <> Q var
+R13939:13939 Top.ProofObjects <> P var
+R13931:13931 Top.ProofObjects <> P var
+R13958:13961 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R13962:13963 Top.ProofObjects <> or ind
+R13967:13967 Top.ProofObjects <> Q var
+R13965:13965 Top.ProofObjects <> P var
+R13957:13957 Top.ProofObjects <> Q var
+R13975:13976 Top.ProofObjects Props.Or <> mod
+def 14506:14512 Props or_comm
+R14534:14537 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R14539:14542 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R14538:14538 Top.ProofObjects <> Q var
+R14543:14543 Top.ProofObjects <> P var
+R14529:14532 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R14528:14528 Top.ProofObjects <> P var
+R14533:14533 Top.ProofObjects <> Q var
+mod 14814:14815 <> Props.Ex
+ind 14829:14830 Props.Ex ex
+constr 14871:14878 Props.Ex ex_intro
+R14849:14852 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R14848:14848 Top.ProofObjects <> A var
+R14893:14893 Top.ProofObjects <> A var
+R14899:14902 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R14903:14904 Top.ProofObjects <> ex ind
+R14906:14906 Top.ProofObjects <> P var
+R14903:14904 Top.ProofObjects <> A var
+R14896:14896 Top.ProofObjects <> P var
+R14898:14898 Top.ProofObjects <> x var
+R14914:14915 Top.ProofObjects Props.Ex <> mod
+R15405:15406 Coq.Init.Logic <> ex ind
+R15418:15419 Top.IndProp <> ev ind
+R15421:15421 Top.ProofObjects <> n var
+def 15554:15569 Props some_nat_is_even
+R15573:15579 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R15581:15582 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R15583:15584 Top.IndProp <> ev ind
+R15586:15586 Top.ProofObjects <> n var
+R15593:15600 Coq.Init.Logic <> ex_intro constr
+R15608:15612 Top.IndProp <> ev_SS constr
+R15617:15621 Top.IndProp <> ev_SS constr
+R15625:15628 Top.IndProp <> ev_0 constr
+R15602:15603 Top.IndProp <> ev ind
+def 15760:15767 Props ex_ev_Sn
+R15771:15772 Coq.Init.Logic <> ex ind
+R15784:15785 Top.IndProp <> ev ind
+R15788:15788 Coq.Init.Datatypes <> S constr
+R15790:15790 Top.ProofObjects <> n var
+ind 16055:16058 Props True
+constr 16074:16074 Props I
+R16078:16081 Top.ProofObjects <> True ind
+ind 16331:16335 Props False
+R16468:16472 Top.ProofObjects Props <> mod
+mod 16831:16840 <> MyEquality
+ind 16854:16855 MyEquality eq
+constr 16888:16894 MyEquality eq_refl
+R16869:16872 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R16874:16877 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R16908:16909 Top.ProofObjects <> eq ind
+R16913:16913 Top.ProofObjects <> x var
+R16911:16911 Top.ProofObjects <> x var
+R16908:16909 Top.ProofObjects <> X var
+R16938:16939 Top.ProofObjects MyEquality eq ind
+not 16926:16926 MyEquality :type_scope:x_'='_x
+prf 17956:17959 MyEquality four
+R17967:17969 Top.ProofObjects MyEquality :type_scope:x_'='_x not
+R17963:17965 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R17971:17973 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R17992:17998 Top.ProofObjects MyEquality eq_refl constr
+R17992:17998 Top.ProofObjects MyEquality eq_refl constr
+def 18422:18426 MyEquality four'
+R18435:18437 Top.ProofObjects MyEquality :type_scope:x_'='_x not
+R18431:18433 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R18439:18441 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R18449:18455 Top.ProofObjects MyEquality eq_refl constr
+def 18472:18480 MyEquality singleton
+R18503:18503 Top.ProofObjects <> X var
+R18514:18516 Top.ProofObjects MyEquality :type_scope:x_'='_x not
+R18509:18510 Top.Poly <> ::x_'++'_x not
+R18507:18508 Top.Poly <> ::'['_']' not
+R18511:18511 Top.Poly <> ::'['_x_';'_'..'_';'_x_']' not
+R18513:18513 Top.Poly <> ::'['_x_';'_'..'_';'_x_']' not
+R18512:18512 Top.ProofObjects <> x var
+R18518:18519 Top.Poly <> ::x_'::'_x not
+R18517:18517 Top.ProofObjects <> x var
+R18520:18521 Top.Poly <> ::'['_']' not
+R18545:18545 Top.ProofObjects <> X var
+R18551:18557 Top.ProofObjects MyEquality eq_refl constr
+R18559:18559 Top.Poly <> ::'['_x_';'_'..'_';'_x_']' not
+R18561:18561 Top.Poly <> ::'['_x_';'_'..'_';'_x_']' not
+R18560:18560 Top.ProofObjects <> x var
+R18569:18578 Top.ProofObjects MyEquality <> mod
+prf 18851:18876 <> equality__leibniz_equality
+R18904:18904 Top.ProofObjects <> X var
+R18915:18918 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R18929:18930 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R18928:18928 Top.ProofObjects <> X var
+R18940:18943 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R18944:18944 Top.ProofObjects <> P var
+R18946:18946 Top.ProofObjects <> y var
+R18937:18937 Top.ProofObjects <> P var
+R18939:18939 Top.ProofObjects <> x var
+R18911:18913 Coq.Init.Logic <> :type_scope:x_'='_x not
+R18910:18910 Top.ProofObjects <> x var
+R18914:18914 Top.ProofObjects <> y var
+prf 19178:19203 <> leibniz_equality__equality
+R19231:19231 Top.ProofObjects <> X var
+R19237:19237 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R19266:19270 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R19272:19274 Coq.Init.Logic <> :type_scope:x_'='_x not
+R19271:19271 Top.ProofObjects <> x var
+R19275:19275 Top.ProofObjects <> y var
+R19248:19249 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R19247:19247 Top.ProofObjects <> X var
+R19259:19262 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R19263:19263 Top.ProofObjects <> P var
+R19265:19265 Top.ProofObjects <> y var
+R19256:19256 Top.ProofObjects <> P var
+R19258:19258 Top.ProofObjects <> x var

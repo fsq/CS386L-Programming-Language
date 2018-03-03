@@ -1,0 +1,10 @@
+DIGEST cd52537359c28838cb1513d06f4e70bd
+FTop.AutoTest
+R61:64 Top.Auto <> <> lib
+ax 77:83 <> MISSING
+mod 103:107 <> Check
+R171:177 Top.AutoTest <> MISSING defax
+R171:177 Top.AutoTest <> MISSING defax
+R440:444 Top.AutoTest Check <> mod
+R463:466 Top.Auto <> <> lib
+R489:492 Coq.Init.Logic <> True ind

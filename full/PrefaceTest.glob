@@ -1,0 +1,10 @@
+DIGEST 3a0a340eaf6fd943528a931935b0fe12
+FTop.PrefaceTest
+R61:67 Top.Preface <> <> lib
+ax 80:86 <> MISSING
+mod 106:110 <> Check
+R174:180 Top.PrefaceTest <> MISSING defax
+R174:180 Top.PrefaceTest <> MISSING defax
+R443:447 Top.PrefaceTest Check <> mod
+R466:472 Top.Preface <> <> lib
+R495:498 Coq.Init.Logic <> True ind

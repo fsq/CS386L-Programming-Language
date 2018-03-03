@@ -1,0 +1,10 @@
+DIGEST 2f6e63f1c917c387376ecbee8bc34eef
+FTop.IndPrinciplesTest
+R61:73 Top.IndPrinciples <> <> lib
+ax 86:92 <> MISSING
+mod 112:116 <> Check
+R180:186 Top.IndPrinciplesTest <> MISSING defax
+R180:186 Top.IndPrinciplesTest <> MISSING defax
+R449:453 Top.IndPrinciplesTest Check <> mod
+R472:484 Top.IndPrinciples <> <> lib
+R507:510 Coq.Init.Logic <> True ind
