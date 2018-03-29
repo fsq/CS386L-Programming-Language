@@ -1,0 +1,1142 @@
+DIGEST bcdd171e1dbfb219fbfe5843105b6bb6
+FTop.Sub
+R86:89 Top.Maps <> <> lib
+R107:111 Top.Types <> <> lib
+R129:137 Top.Smallstep <> <> lib
+ind 24664:24665 <> ty
+constr 24681:24684 <> TTop
+constr 24697:24701 <> TBool
+constr 24713:24717 <> TBase
+constr 24739:24744 <> TArrow
+constr 24767:24771 <> TUnit
+R24690:24691 Top.Sub <> ty ind
+R24706:24707 Top.Sub <> ty ind
+R24728:24731 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R24732:24733 Top.Sub <> ty ind
+R24722:24727 Coq.Strings.String <> string ind
+R24750:24753 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R24756:24759 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R24760:24761 Top.Sub <> ty ind
+R24754:24755 Top.Sub <> ty ind
+R24748:24749 Top.Sub <> ty ind
+R24776:24777 Top.Sub <> ty ind
+ind 24792:24793 <> tm
+constr 24809:24812 <> tvar
+constr 24833:24836 <> tapp
+constr 24859:24862 <> tabs
+constr 24895:24899 <> ttrue
+constr 24910:24915 <> tfalse
+constr 24926:24928 <> tif
+constr 24957:24961 <> tunit
+R24822:24825 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R24826:24827 Top.Sub <> tm ind
+R24816:24821 Coq.Strings.String <> string ind
+R24842:24845 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R24848:24851 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R24852:24853 Top.Sub <> tm ind
+R24846:24847 Top.Sub <> tm ind
+R24840:24841 Top.Sub <> tm ind
+R24872:24875 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R24878:24881 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R24884:24887 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R24888:24889 Top.Sub <> tm ind
+R24882:24883 Top.Sub <> tm ind
+R24876:24877 Top.Sub <> ty ind
+R24866:24871 Coq.Strings.String <> string ind
+R24903:24904 Top.Sub <> tm ind
+R24919:24920 Top.Sub <> tm ind
+R24934:24937 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R24940:24943 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R24946:24949 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R24950:24951 Top.Sub <> tm ind
+R24944:24945 Top.Sub <> tm ind
+R24938:24939 Top.Sub <> tm ind
+R24932:24933 Top.Sub <> tm ind
+R24965:24966 Top.Sub <> tm ind
+def 25168:25172 <> subst
+R25177:25182 Coq.Strings.String <> string ind
+R25188:25189 Top.Sub <> tm ind
+R25196:25197 Top.Sub <> tm ind
+R25202:25203 Top.Sub <> tm ind
+R25216:25216 Top.Sub <> t var
+R25227:25230 Top.Sub <> tvar constr
+R25246:25255 Top.Maps <> beq_string def
+R25257:25257 Top.Sub <> x var
+R25273:25273 Top.Sub <> t var
+R25266:25266 Top.Sub <> s var
+R25279:25282 Top.Sub <> tabs constr
+R25300:25303 Top.Sub <> tabs constr
+R25313:25322 Top.Maps <> beq_string def
+R25324:25324 Top.Sub <> x var
+R25342:25346 Top.Sub <> subst def
+R25350:25350 Top.Sub <> s var
+R25348:25348 Top.Sub <> x var
+R25361:25364 Top.Sub <> tapp constr
+R25381:25384 Top.Sub <> tapp constr
+R25402:25406 Top.Sub <> subst def
+R25410:25410 Top.Sub <> s var
+R25408:25408 Top.Sub <> x var
+R25387:25391 Top.Sub <> subst def
+R25395:25395 Top.Sub <> s var
+R25393:25393 Top.Sub <> x var
+R25420:25424 Top.Sub <> ttrue constr
+R25435:25439 Top.Sub <> ttrue constr
+R25445:25450 Top.Sub <> tfalse constr
+R25461:25466 Top.Sub <> tfalse constr
+R25472:25474 Top.Sub <> tif constr
+R25494:25496 Top.Sub <> tif constr
+R25529:25533 Top.Sub <> subst def
+R25537:25537 Top.Sub <> s var
+R25535:25535 Top.Sub <> x var
+R25514:25518 Top.Sub <> subst def
+R25522:25522 Top.Sub <> s var
+R25520:25520 Top.Sub <> x var
+R25499:25503 Top.Sub <> subst def
+R25507:25507 Top.Sub <> s var
+R25505:25505 Top.Sub <> x var
+R25547:25551 Top.Sub <> tunit constr
+R25562:25566 Top.Sub <> tunit constr
+R25611:25615 Top.Sub <> subst def
+not 25586:25586 <> ::'['_x_':='_x_']'_x
+ind 25830:25834 <> value
+constr 25856:25860 <> v_abs
+constr 25907:25912 <> v_true
+constr 25938:25944 <> v_false
+constr 25971:25976 <> v_unit
+R25840:25843 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R25838:25839 Top.Sub <> tm ind
+R25884:25888 Top.Sub <> value ind
+R25891:25894 Top.Sub <> tabs constr
+R25900:25900 Top.Sub <> t var
+R25898:25898 Top.Sub <> T var
+R25896:25896 Top.Sub <> x var
+R25922:25926 Top.Sub <> value ind
+R25928:25932 Top.Sub <> ttrue constr
+R25954:25958 Top.Sub <> value ind
+R25960:25965 Top.Sub <> tfalse constr
+R25986:25990 Top.Sub <> value ind
+R25992:25996 Top.Sub <> tunit constr
+R26019:26023 Top.Sub <> value ind
+ind 26085:26088 <> step
+constr 26116:26124 <> ST_AppAbs
+constr 26221:26227 <> ST_App1
+constr 26316:26322 <> ST_App2
+constr 26433:26441 <> ST_IfTrue
+constr 26494:26503 <> ST_IfFalse
+constr 26557:26561 <> ST_If
+R26094:26097 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R26100:26103 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R26098:26099 Top.Sub <> tm ind
+R26092:26093 Top.Sub <> tm ind
+R26671:26674 Top.Sub <> step var
+R26164:26176 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R26177:26177 Top.Sub <> ::x_'==>'_x not
+R26200:26205 Top.Sub <> ::x_'==>'_x not
+R26178:26181 Top.Sub <> tapp constr
+R26198:26199 Top.Sub <> v2 var
+R26184:26187 Top.Sub <> tabs constr
+R26193:26195 Top.Sub <> t12 var
+R26191:26191 Top.Sub <> T var
+R26189:26189 Top.Sub <> x var
+R26206:26206 Top.Sub <> ::'['_x_':='_x_']'_x not
+R26208:26209 Top.Sub <> ::'['_x_':='_x_']'_x not
+R26212:26212 Top.Sub <> ::'['_x_':='_x_']'_x not
+R26207:26207 Top.Sub <> x var
+R26210:26211 Top.Sub <> v2 var
+R26213:26215 Top.Sub <> t12 var
+R26156:26160 Top.Sub <> value ind
+R26162:26163 Top.Sub <> v2 var
+R26268:26280 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R26281:26281 Top.Sub <> ::x_'==>'_x not
+R26292:26298 Top.Sub <> ::x_'==>'_x not
+R26310:26310 Top.Sub <> ::x_'==>'_x not
+R26282:26285 Top.Sub <> tapp constr
+R26290:26291 Top.Sub <> t2 var
+R26287:26288 Top.Sub <> t1 var
+R26299:26302 Top.Sub <> tapp constr
+R26308:26309 Top.Sub <> t2 var
+R26304:26306 Top.Sub <> t1' var
+R26260:26264 Top.Sub <> ::x_'==>'_x not
+R26258:26259 Top.Sub <> t1 var
+R26265:26267 Top.Sub <> t1' var
+R26361:26373 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R26384:26396 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R26397:26397 Top.Sub <> ::x_'==>'_x not
+R26408:26414 Top.Sub <> ::x_'==>'_x not
+R26427:26427 Top.Sub <> ::x_'==>'_x not
+R26398:26401 Top.Sub <> tapp constr
+R26406:26407 Top.Sub <> t2 var
+R26403:26404 Top.Sub <> v1 var
+R26415:26418 Top.Sub <> tapp constr
+R26424:26426 Top.Sub <> t2' var
+R26420:26421 Top.Sub <> v1 var
+R26376:26380 Top.Sub <> ::x_'==>'_x not
+R26374:26375 Top.Sub <> t2 var
+R26381:26383 Top.Sub <> t2' var
+R26353:26357 Top.Sub <> value ind
+R26359:26360 Top.Sub <> v1 var
+R26465:26465 Top.Sub <> ::x_'==>'_x not
+R26481:26486 Top.Sub <> ::x_'==>'_x not
+R26466:26468 Top.Sub <> tif constr
+R26479:26480 Top.Sub <> t2 var
+R26476:26477 Top.Sub <> t1 var
+R26470:26474 Top.Sub <> ttrue constr
+R26487:26488 Top.Sub <> t1 var
+R26527:26527 Top.Sub <> ::x_'==>'_x not
+R26544:26549 Top.Sub <> ::x_'==>'_x not
+R26528:26530 Top.Sub <> tif constr
+R26542:26543 Top.Sub <> t2 var
+R26539:26540 Top.Sub <> t1 var
+R26532:26537 Top.Sub <> tfalse constr
+R26550:26551 Top.Sub <> t2 var
+R26602:26611 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R26612:26612 Top.Sub <> ::x_'==>'_x not
+R26625:26631 Top.Sub <> ::x_'==>'_x not
+R26645:26645 Top.Sub <> ::x_'==>'_x not
+R26613:26615 Top.Sub <> tif constr
+R26623:26624 Top.Sub <> t3 var
+R26620:26621 Top.Sub <> t2 var
+R26617:26618 Top.Sub <> t1 var
+R26632:26634 Top.Sub <> tif constr
+R26643:26644 Top.Sub <> t3 var
+R26640:26641 Top.Sub <> t2 var
+R26636:26638 Top.Sub <> t1' var
+R26594:26598 Top.Sub <> ::x_'==>'_x not
+R26592:26593 Top.Sub <> t1 var
+R26599:26601 Top.Sub <> t1' var
+R26671:26674 Top.Sub <> step ind
+not 26653:26653 <> ::x_'==>'_x
+R26703:26706 Top.Sub <> step ind
+ind 27110:27116 <> subtype
+constr 27144:27149 <> S_Refl
+constr 27180:27186 <> S_Trans
+constr 27253:27257 <> S_Top
+constr 27291:27297 <> S_Arrow
+R27122:27125 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R27128:27131 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R27126:27127 Top.Sub <> ty ind
+R27120:27121 Top.Sub <> ty ind
+R27417:27423 Top.Sub <> subtype var
+R27170:27173 Top.Sub <> ::x_'<:'_x not
+R27169:27169 Top.Sub <> T var
+R27174:27174 Top.Sub <> T var
+R27216:27225 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R27232:27241 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R27243:27246 Top.Sub <> ::x_'<:'_x not
+R27242:27242 Top.Sub <> S var
+R27247:27247 Top.Sub <> T var
+R27227:27230 Top.Sub <> ::x_'<:'_x not
+R27226:27226 Top.Sub <> U var
+R27231:27231 Top.Sub <> T var
+R27211:27214 Top.Sub <> ::x_'<:'_x not
+R27210:27210 Top.Sub <> S var
+R27215:27215 Top.Sub <> U var
+R27278:27281 Top.Sub <> ::x_'<:'_x not
+R27277:27277 Top.Sub <> S var
+R27282:27285 Top.Sub <> TTop constr
+R27335:27344 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R27353:27362 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R27363:27363 Top.Sub <> ::x_'<:'_x not
+R27376:27381 Top.Sub <> ::x_'<:'_x not
+R27394:27394 Top.Sub <> ::x_'<:'_x not
+R27364:27369 Top.Sub <> TArrow constr
+R27374:27375 Top.Sub <> S2 var
+R27371:27372 Top.Sub <> S1 var
+R27382:27387 Top.Sub <> TArrow constr
+R27392:27393 Top.Sub <> T2 var
+R27389:27390 Top.Sub <> T1 var
+R27347:27350 Top.Sub <> ::x_'<:'_x not
+R27345:27346 Top.Sub <> S2 var
+R27351:27352 Top.Sub <> T2 var
+R27329:27332 Top.Sub <> ::x_'<:'_x not
+R27327:27328 Top.Sub <> T1 var
+R27333:27334 Top.Sub <> S1 var
+R27417:27423 Top.Sub <> subtype ind
+not 27402:27402 <> ::x_'<:'_x
+R27654:27660 Top.Sub <> subtype ind
+mod 27671:27678 <> Examples
+syndef 27718:27718 Examples x
+syndef 27737:27737 Examples y
+syndef 27756:27756 Examples z
+syndef 27776:27776 Examples A
+R27782:27786 Top.Sub <> TBase constr
+syndef 27803:27803 Examples B
+R27809:27813 Top.Sub <> TBase constr
+syndef 27830:27830 Examples C
+R27836:27840 Top.Sub <> TBase constr
+syndef 27858:27863 Examples String
+R27869:27873 Top.Sub <> TBase constr
+syndef 27895:27899 Examples Float
+R27905:27909 Top.Sub <> TBase constr
+syndef 27930:27936 Examples Integer
+R27942:27946 Top.Sub <> TBase constr
+def 27969:27987 Examples subtyping_example_0
+R27993:27993 Top.Sub <> ::x_'<:'_x not
+R28008:28013 Top.Sub <> ::x_'<:'_x not
+R28027:28027 Top.Sub <> ::x_'<:'_x not
+R27994:27999 Top.Sub <> TArrow constr
+R28003:28007 Top.Sub <> TBool constr
+R28001:28001 Top.Sub Examples C syndef
+R28014:28019 Top.Sub <> TArrow constr
+R28023:28026 Top.Sub <> TTop constr
+R28021:28021 Top.Sub Examples C syndef
+def 28712:28717 Examples Person
+R28721:28722 Top.Sub <> ty ind
+def 28803:28809 Examples Student
+R28813:28814 Top.Sub <> ty ind
+def 28895:28902 Examples Employee
+R28906:28907 Top.Sub <> ty ind
+def 29065:29082 Examples sub_student_person
+R29095:29098 Top.Sub <> ::x_'<:'_x not
+R29088:29094 Top.Sub Examples Student prfax
+R29099:29104 Top.Sub Examples Person prfax
+def 29152:29170 Examples sub_employee_person
+R29184:29187 Top.Sub <> ::x_'<:'_x not
+R29176:29183 Top.Sub Examples Employee prfax
+R29188:29193 Top.Sub Examples Person prfax
+def 29481:29499 Examples subtyping_example_1
+R29505:29505 Top.Sub <> ::x_'<:'_x not
+R29525:29530 Top.Sub <> ::x_'<:'_x not
+R29557:29557 Top.Sub <> ::x_'<:'_x not
+R29506:29511 Top.Sub <> TArrow constr
+R29518:29524 Top.Sub Examples Student prfax
+R29513:29516 Top.Sub <> TTop constr
+R29531:29536 Top.Sub <> TArrow constr
+R29551:29556 Top.Sub Examples Person prfax
+R29539:29544 Top.Sub <> TArrow constr
+R29548:29548 Top.Sub Examples C syndef
+R29546:29546 Top.Sub Examples C syndef
+def 29729:29747 Examples subtyping_example_2
+R29753:29753 Top.Sub <> ::x_'<:'_x not
+R29772:29777 Top.Sub <> ::x_'<:'_x not
+R29796:29796 Top.Sub <> ::x_'<:'_x not
+R29754:29759 Top.Sub <> TArrow constr
+R29766:29771 Top.Sub Examples Person prfax
+R29761:29764 Top.Sub <> TTop constr
+R29778:29783 Top.Sub <> TArrow constr
+R29792:29795 Top.Sub <> TTop constr
+R29785:29790 Top.Sub Examples Person prfax
+R29898:29905 Top.Sub Examples <> mod
+def 30114:30120 <> context
+R30125:30135 Top.Maps <> partial_map def
+R30137:30138 Top.Sub <> ty ind
+ind 30209:30216 <> has_type
+constr 30278:30282 <> T_Var
+constr 30362:30366 <> T_Abs
+constr 30495:30499 <> T_App
+constr 30632:30637 <> T_True
+constr 30691:30697 <> T_False
+constr 30752:30755 <> T_If
+constr 30911:30916 <> T_Unit
+constr 31001:31005 <> T_Sub
+R30227:30230 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R30233:30236 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R30239:30242 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R30237:30238 Top.Sub <> ty ind
+R30231:30232 Top.Sub <> tm ind
+R30220:30226 Top.Sub <> context def
+R31128:31135 Top.Sub <> has_type var
+R30326:30335 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R30341:30344 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R30351:30355 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R30336:30340 Top.Sub <> Gamma var
+R30345:30348 Top.Sub <> tvar constr
+R30350:30350 Top.Sub <> x var
+R30356:30356 Top.Sub <> T var
+R30317:30319 Coq.Init.Logic <> :type_scope:x_'='_x not
+R30310:30314 Top.Sub <> Gamma var
+R30316:30316 Top.Sub <> x var
+R30320:30323 Coq.Init.Datatypes <> Some constr
+R30325:30325 Top.Sub <> T var
+R30438:30447 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R30453:30456 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R30471:30475 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R30448:30452 Top.Sub <> Gamma var
+R30457:30460 Top.Sub <> tabs constr
+R30468:30470 Top.Sub <> t12 var
+R30464:30466 Top.Sub <> T11 var
+R30462:30462 Top.Sub <> x var
+R30476:30481 Top.Sub <> TArrow constr
+R30487:30489 Top.Sub <> T12 var
+R30483:30485 Top.Sub <> T11 var
+R30423:30426 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R30430:30434 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R30409:30413 Top.Maps <> ::x_'&'_'{{'_x_'-->'_x_'}}' not
+R30415:30417 Top.Maps <> ::x_'&'_'{{'_x_'-->'_x_'}}' not
+R30421:30422 Top.Maps <> ::x_'&'_'{{'_x_'-->'_x_'}}' not
+R30404:30408 Top.Sub <> Gamma var
+R30414:30414 Top.Sub <> x var
+R30418:30420 Top.Sub <> T11 var
+R30427:30429 Top.Sub <> t12 var
+R30435:30437 Top.Sub <> T12 var
+R30563:30572 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R30591:30600 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R30606:30609 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R30620:30624 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R30601:30605 Top.Sub <> Gamma var
+R30610:30613 Top.Sub <> tapp constr
+R30618:30619 Top.Sub <> t2 var
+R30615:30616 Top.Sub <> t1 var
+R30625:30626 Top.Sub <> T2 var
+R30578:30581 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R30584:30588 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R30573:30577 Top.Sub <> Gamma var
+R30582:30583 Top.Sub <> t2 var
+R30589:30590 Top.Sub <> T1 var
+R30540:30543 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R30546:30550 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R30535:30539 Top.Sub <> Gamma var
+R30544:30545 Top.Sub <> t1 var
+R30551:30556 Top.Sub <> TArrow constr
+R30561:30562 Top.Sub <> T2 var
+R30558:30559 Top.Sub <> T1 var
+R30667:30670 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R30676:30680 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R30662:30666 Top.Sub <> Gamma var
+R30671:30675 Top.Sub <> ttrue constr
+R30681:30685 Top.Sub <> TBool constr
+R30727:30730 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R30737:30741 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R30722:30726 Top.Sub <> Gamma var
+R30731:30736 Top.Sub <> tfalse constr
+R30742:30746 Top.Sub <> TBool constr
+R30812:30822 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R30840:30850 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R30868:30878 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R30884:30887 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R30900:30904 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R30879:30883 Top.Sub <> Gamma var
+R30888:30890 Top.Sub <> tif constr
+R30898:30899 Top.Sub <> t3 var
+R30895:30896 Top.Sub <> t2 var
+R30892:30893 Top.Sub <> t1 var
+R30905:30905 Top.Sub <> T var
+R30856:30859 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R30862:30866 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R30851:30855 Top.Sub <> Gamma var
+R30860:30861 Top.Sub <> t3 var
+R30867:30867 Top.Sub <> T var
+R30828:30831 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R30834:30838 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R30823:30827 Top.Sub <> Gamma var
+R30832:30833 Top.Sub <> t2 var
+R30839:30839 Top.Sub <> T var
+R30796:30799 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R30802:30806 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R30791:30795 Top.Sub <> Gamma var
+R30800:30801 Top.Sub <> t1 var
+R30807:30811 Top.Sub <> TBool constr
+R30945:30948 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R30954:30958 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R30940:30944 Top.Sub <> Gamma var
+R30949:30953 Top.Sub <> tunit constr
+R30959:30963 Top.Sub <> TUnit constr
+R31051:31060 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R31067:31076 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R31082:31085 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R31087:31091 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R31077:31081 Top.Sub <> Gamma var
+R31086:31086 Top.Sub <> t var
+R31092:31092 Top.Sub <> T var
+R31062:31065 Top.Sub <> ::x_'<:'_x not
+R31061:31061 Top.Sub <> S var
+R31066:31066 Top.Sub <> T var
+R31040:31043 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R31045:31049 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R31035:31039 Top.Sub <> Gamma var
+R31044:31044 Top.Sub <> t var
+R31050:31050 Top.Sub <> S var
+R31128:31135 Top.Sub <> has_type ind
+not 31101:31101 <> ::x_'|-'_x_'\in'_x
+R31168:31175 Top.Sub <> has_type ind
+R31324:31331 Top.Sub <> has_type ind
+R31336:31339 Top.Sub <> tapp constr
+R31361:31365 Top.Sub <> T_App constr
+R31390:31392 Coq.Init.Logic <> :type_scope:x_'='_x not
+mod 31429:31437 <> Examples2
+R32177:32185 Top.Sub Examples2 <> mod
+prf 33591:33608 <> sub_inversion_Bool
+R33637:33645 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R33647:33649 Coq.Init.Logic <> :type_scope:x_'='_x not
+R33646:33646 Top.Sub <> U var
+R33650:33654 Top.Sub <> TBool constr
+R33628:33631 Top.Sub <> ::x_'<:'_x not
+R33627:33627 Top.Sub <> U var
+R33632:33636 Top.Sub <> TBool constr
+R33700:33704 Top.Sub <> TBool constr
+R33700:33704 Top.Sub <> TBool constr
+prf 33813:33831 <> sub_inversion_arrow
+R33873:33881 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R33882:33888 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R33891:33892 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R33893:33899 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R33902:33910 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R33927:33930 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R33912:33914 Coq.Init.Logic <> :type_scope:x_'='_x not
+R33911:33911 Top.Sub <> U var
+R33915:33920 Top.Sub <> TArrow constr
+R33925:33926 Top.Sub <> U2 var
+R33922:33923 Top.Sub <> U1 var
+R33939:33942 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R33933:33936 Top.Sub <> ::x_'<:'_x not
+R33931:33932 Top.Sub <> V1 var
+R33937:33938 Top.Sub <> U1 var
+R33945:33948 Top.Sub <> ::x_'<:'_x not
+R33943:33944 Top.Sub <> U2 var
+R33949:33950 Top.Sub <> V2 var
+R33857:33860 Top.Sub <> ::x_'<:'_x not
+R33856:33856 Top.Sub <> U var
+R33861:33866 Top.Sub <> TArrow constr
+R33871:33872 Top.Sub <> V2 var
+R33868:33869 Top.Sub <> V1 var
+R34004:34009 Top.Sub <> TArrow constr
+R34004:34009 Top.Sub <> TArrow constr
+prf 35631:35660 <> canonical_forms_of_arrow_types
+R35715:35720 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R35728:35733 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R35734:35740 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R35742:35743 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R35744:35750 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R35753:35754 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R35755:35761 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R35764:35770 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R35772:35774 Coq.Init.Logic <> :type_scope:x_'='_x not
+R35771:35771 Top.Sub <> s var
+R35775:35778 Top.Sub <> tabs constr
+R35785:35786 Top.Sub <> s2 var
+R35782:35783 Top.Sub <> S1 var
+R35780:35780 Top.Sub <> x var
+R35721:35725 Top.Sub <> value ind
+R35727:35727 Top.Sub <> s var
+R35693:35696 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R35698:35702 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R35688:35692 Top.Sub <> Gamma var
+R35697:35697 Top.Sub <> s var
+R35703:35708 Top.Sub <> TArrow constr
+R35713:35714 Top.Sub <> T2 var
+R35710:35711 Top.Sub <> T1 var
+prf 35951:35973 <> canonical_forms_of_Bool
+R36015:36020 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R36028:36033 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R36043:36046 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R36035:36037 Coq.Init.Logic <> :type_scope:x_'='_x not
+R36034:36034 Top.Sub <> s var
+R36038:36042 Top.Sub <> ttrue constr
+R36048:36050 Coq.Init.Logic <> :type_scope:x_'='_x not
+R36047:36047 Top.Sub <> s var
+R36051:36056 Top.Sub <> tfalse constr
+R36021:36025 Top.Sub <> value ind
+R36027:36027 Top.Sub <> s var
+R36000:36003 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R36005:36009 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R35995:35999 Top.Sub <> Gamma var
+R36004:36004 Top.Sub <> s var
+R36010:36014 Top.Sub <> TBool constr
+R36113:36117 Top.Sub <> TBool constr
+R36113:36117 Top.Sub <> TBool constr
+R36198:36215 Top.Sub <> sub_inversion_Bool prfax
+R36198:36215 Top.Sub <> sub_inversion_Bool prfax
+prf 38800:38807 <> progress
+R38844:38852 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R38860:38863 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R38853:38857 Top.Sub <> value ind
+R38859:38859 Top.Sub <> t var
+R38864:38870 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R38873:38874 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R38876:38880 Top.Sub <> ::x_'==>'_x not
+R38875:38875 Top.Sub <> t var
+R38881:38882 Top.Sub <> t' var
+R38833:38836 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R38838:38842 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R38828:38832 Top.Maps <> empty def
+R38837:38837 Top.Sub <> t var
+R38843:38843 Top.Sub <> T var
+R38931:38935 Top.Maps <> empty def
+R38931:38935 Top.Maps <> empty def
+R39204:39233 Top.Sub <> canonical_forms_of_arrow_types prfax
+R39235:39239 Top.Maps <> empty def
+R39204:39233 Top.Sub <> canonical_forms_of_arrow_types prfax
+R39235:39239 Top.Maps <> empty def
+R39311:39311 Top.Sub <> ::'['_x_':='_x_']'_x not
+R39313:39314 Top.Sub <> ::'['_x_':='_x_']'_x not
+R39317:39317 Top.Sub <> ::'['_x_':='_x_']'_x not
+R39311:39311 Top.Sub <> ::'['_x_':='_x_']'_x not
+R39313:39314 Top.Sub <> ::'['_x_':='_x_']'_x not
+R39317:39317 Top.Sub <> ::'['_x_':='_x_']'_x not
+R39393:39396 Top.Sub <> tapp constr
+R39393:39396 Top.Sub <> tapp constr
+R39471:39474 Top.Sub <> tapp constr
+R39471:39474 Top.Sub <> tapp constr
+R39590:39593 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R39582:39584 Coq.Init.Logic <> :type_scope:x_'='_x not
+R39585:39589 Top.Sub <> ttrue constr
+R39596:39598 Coq.Init.Logic <> :type_scope:x_'='_x not
+R39599:39604 Top.Sub <> tfalse constr
+R39626:39648 Top.Sub <> canonical_forms_of_Bool thm
+R39590:39593 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R39582:39584 Coq.Init.Logic <> :type_scope:x_'='_x not
+R39585:39589 Top.Sub <> ttrue constr
+R39596:39598 Coq.Init.Logic <> :type_scope:x_'='_x not
+R39599:39604 Top.Sub <> tfalse constr
+R39626:39648 Top.Sub <> canonical_forms_of_Bool thm
+prf 41807:41826 <> typing_inversion_abs
+R41888:41896 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R41897:41903 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R41906:41915 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R41933:41943 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R41928:41931 Top.Sub <> ::x_'<:'_x not
+R41916:41921 Top.Sub <> TArrow constr
+R41926:41927 Top.Sub <> S2 var
+R41923:41924 Top.Sub <> S1 var
+R41932:41932 Top.Sub <> T var
+R41962:41965 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R41968:41972 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R41949:41953 Top.Maps <> ::x_'&'_'{{'_x_'-->'_x_'}}' not
+R41955:41957 Top.Maps <> ::x_'&'_'{{'_x_'-->'_x_'}}' not
+R41960:41961 Top.Maps <> ::x_'&'_'{{'_x_'-->'_x_'}}' not
+R41944:41948 Top.Sub <> Gamma var
+R41954:41954 Top.Sub <> x var
+R41958:41959 Top.Sub <> S1 var
+R41966:41967 Top.Sub <> t2 var
+R41973:41974 Top.Sub <> S2 var
+R41864:41868 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R41881:41886 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R41859:41863 Top.Sub <> Gamma var
+R41869:41872 Top.Sub <> tabs constr
+R41879:41880 Top.Sub <> t2 var
+R41876:41877 Top.Sub <> S1 var
+R41874:41874 Top.Sub <> x var
+R41887:41887 Top.Sub <> T var
+R42035:42038 Top.Sub <> tabs constr
+R42035:42038 Top.Sub <> tabs constr
+prf 42257:42276 <> typing_inversion_var
+R42323:42328 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R42329:42335 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R42337:42342 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R42359:42362 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R42350:42352 Coq.Init.Logic <> :type_scope:x_'='_x not
+R42343:42347 Top.Sub <> Gamma var
+R42349:42349 Top.Sub <> x var
+R42353:42356 Coq.Init.Datatypes <> Some constr
+R42358:42358 Top.Sub <> S var
+R42364:42367 Top.Sub <> ::x_'<:'_x not
+R42363:42363 Top.Sub <> S var
+R42368:42368 Top.Sub <> T var
+R42305:42309 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R42316:42321 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R42300:42304 Top.Sub <> Gamma var
+R42310:42313 Top.Sub <> tvar constr
+R42315:42315 Top.Sub <> x var
+R42322:42322 Top.Sub <> T var
+R42425:42428 Top.Sub <> tvar constr
+R42425:42428 Top.Sub <> tvar constr
+prf 42614:42633 <> typing_inversion_app
+R42690:42695 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R42696:42702 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R42705:42710 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R42741:42748 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R42716:42719 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R42722:42727 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R42740:42740 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R42711:42715 Top.Sub <> Gamma var
+R42720:42721 Top.Sub <> t1 var
+R42728:42733 Top.Sub <> TArrow constr
+R42738:42739 Top.Sub <> T2 var
+R42735:42736 Top.Sub <> T1 var
+R42754:42757 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R42760:42764 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R42749:42753 Top.Sub <> Gamma var
+R42758:42759 Top.Sub <> t2 var
+R42765:42766 Top.Sub <> T1 var
+R42667:42671 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R42682:42687 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R42662:42666 Top.Sub <> Gamma var
+R42672:42675 Top.Sub <> tapp constr
+R42680:42681 Top.Sub <> t2 var
+R42677:42678 Top.Sub <> t1 var
+R42688:42689 Top.Sub <> T2 var
+R42828:42831 Top.Sub <> tapp constr
+R42828:42831 Top.Sub <> tapp constr
+prf 43022:43042 <> typing_inversion_true
+R43084:43089 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R43095:43098 Top.Sub <> ::x_'<:'_x not
+R43090:43094 Top.Sub <> TBool constr
+R43099:43099 Top.Sub <> T var
+R43069:43072 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R43078:43082 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R43064:43068 Top.Sub <> Gamma var
+R43073:43077 Top.Sub <> ttrue constr
+R43083:43083 Top.Sub <> T var
+R43152:43156 Top.Sub <> ttrue constr
+R43152:43156 Top.Sub <> ttrue constr
+prf 43233:43254 <> typing_inversion_false
+R43297:43302 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R43308:43311 Top.Sub <> ::x_'<:'_x not
+R43303:43307 Top.Sub <> TBool constr
+R43312:43312 Top.Sub <> T var
+R43281:43284 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R43291:43295 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R43276:43280 Top.Sub <> Gamma var
+R43285:43290 Top.Sub <> tfalse constr
+R43296:43296 Top.Sub <> T var
+R43365:43370 Top.Sub <> tfalse constr
+R43365:43370 Top.Sub <> tfalse constr
+prf 43447:43465 <> typing_inversion_if
+R43525:43530 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R43552:43557 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R43536:43539 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R43542:43546 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R43531:43535 Top.Sub <> Gamma var
+R43540:43541 Top.Sub <> t1 var
+R43547:43551 Top.Sub <> TBool constr
+R43575:43580 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R43563:43566 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R43569:43573 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R43558:43562 Top.Sub <> Gamma var
+R43567:43568 Top.Sub <> t2 var
+R43574:43574 Top.Sub <> T var
+R43586:43589 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R43592:43596 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R43581:43585 Top.Sub <> Gamma var
+R43590:43591 Top.Sub <> t3 var
+R43597:43597 Top.Sub <> T var
+R43501:43505 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R43518:43523 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R43496:43500 Top.Sub <> Gamma var
+R43506:43508 Top.Sub <> tif constr
+R43516:43517 Top.Sub <> t3 var
+R43513:43514 Top.Sub <> t2 var
+R43510:43511 Top.Sub <> t1 var
+R43524:43524 Top.Sub <> T var
+R43661:43663 Top.Sub <> tif constr
+R43661:43663 Top.Sub <> tif constr
+prf 43850:43870 <> typing_inversion_unit
+R43912:43919 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R43925:43928 Top.Sub <> ::x_'<:'_x not
+R43920:43924 Top.Sub <> TUnit constr
+R43929:43929 Top.Sub <> T var
+R43897:43900 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R43906:43910 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R43892:43896 Top.Sub <> Gamma var
+R43901:43905 Top.Sub <> tunit constr
+R43911:43911 Top.Sub <> T var
+R43982:43986 Top.Sub <> tunit constr
+R43982:43986 Top.Sub <> tunit constr
+prf 44254:44262 <> abs_arrow
+R44332:44340 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R44349:44354 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R44343:44346 Top.Sub <> ::x_'<:'_x not
+R44341:44342 Top.Sub <> T1 var
+R44347:44348 Top.Sub <> S1 var
+R44373:44376 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R44379:44383 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R44360:44364 Top.Maps <> ::x_'&'_'{{'_x_'-->'_x_'}}' not
+R44366:44368 Top.Maps <> ::x_'&'_'{{'_x_'-->'_x_'}}' not
+R44371:44372 Top.Maps <> ::x_'&'_'{{'_x_'-->'_x_'}}' not
+R44355:44359 Top.Maps <> empty def
+R44365:44365 Top.Sub <> x var
+R44369:44370 Top.Sub <> S1 var
+R44377:44378 Top.Sub <> s2 var
+R44384:44385 Top.Sub <> T2 var
+R44295:44299 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R44312:44318 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R44331:44331 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R44290:44294 Top.Maps <> empty def
+R44300:44303 Top.Sub <> tabs constr
+R44310:44311 Top.Sub <> s2 var
+R44307:44308 Top.Sub <> S1 var
+R44305:44305 Top.Sub <> x var
+R44319:44324 Top.Sub <> TArrow constr
+R44329:44330 Top.Sub <> T2 var
+R44326:44327 Top.Sub <> T1 var
+R44442:44461 Top.Sub <> typing_inversion_abs thm
+R44442:44461 Top.Sub <> typing_inversion_abs thm
+R44516:44534 Top.Sub <> sub_inversion_arrow prfax
+R44516:44534 Top.Sub <> sub_inversion_arrow prfax
+ind 44828:44842 <> appears_free_in
+constr 44874:44880 <> afi_var
+constr 44931:44938 <> afi_app1
+constr 45023:45030 <> afi_app2
+constr 45115:45121 <> afi_abs
+constr 45244:45250 <> afi_if1
+constr 45346:45352 <> afi_if2
+constr 45448:45454 <> afi_if3
+R44852:44855 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R44858:44861 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R44856:44857 Top.Sub <> tm ind
+R44846:44851 Coq.Strings.String <> string ind
+R44900:44914 Top.Sub <> appears_free_in ind
+R44919:44922 Top.Sub <> tvar constr
+R44924:44924 Top.Sub <> x var
+R44916:44916 Top.Sub <> x var
+R44984:44987 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R44988:45002 Top.Sub <> appears_free_in ind
+R45007:45010 Top.Sub <> tapp constr
+R45015:45016 Top.Sub <> t2 var
+R45012:45013 Top.Sub <> t1 var
+R45004:45004 Top.Sub <> x var
+R44964:44978 Top.Sub <> appears_free_in ind
+R44982:44983 Top.Sub <> t1 var
+R44980:44980 Top.Sub <> x var
+R45076:45079 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R45080:45094 Top.Sub <> appears_free_in ind
+R45099:45102 Top.Sub <> tapp constr
+R45107:45108 Top.Sub <> t2 var
+R45104:45105 Top.Sub <> t1 var
+R45096:45096 Top.Sub <> x var
+R45056:45070 Top.Sub <> appears_free_in ind
+R45074:45075 Top.Sub <> t2 var
+R45072:45072 Top.Sub <> x var
+R45159:45171 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R45193:45204 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R45205:45219 Top.Sub <> appears_free_in ind
+R45224:45227 Top.Sub <> tabs constr
+R45235:45237 Top.Sub <> t12 var
+R45231:45233 Top.Sub <> T11 var
+R45229:45229 Top.Sub <> y var
+R45221:45221 Top.Sub <> x var
+R45172:45186 Top.Sub <> appears_free_in ind
+R45190:45192 Top.Sub <> t12 var
+R45188:45188 Top.Sub <> x var
+R45154:45157 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R45153:45153 Top.Sub <> y var
+R45158:45158 Top.Sub <> x var
+R45299:45308 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R45309:45323 Top.Sub <> appears_free_in ind
+R45328:45330 Top.Sub <> tif constr
+R45338:45339 Top.Sub <> t3 var
+R45335:45336 Top.Sub <> t2 var
+R45332:45333 Top.Sub <> t1 var
+R45325:45325 Top.Sub <> x var
+R45279:45293 Top.Sub <> appears_free_in ind
+R45297:45298 Top.Sub <> t1 var
+R45295:45295 Top.Sub <> x var
+R45401:45410 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R45411:45425 Top.Sub <> appears_free_in ind
+R45430:45432 Top.Sub <> tif constr
+R45440:45441 Top.Sub <> t3 var
+R45437:45438 Top.Sub <> t2 var
+R45434:45435 Top.Sub <> t1 var
+R45427:45427 Top.Sub <> x var
+R45381:45395 Top.Sub <> appears_free_in ind
+R45399:45400 Top.Sub <> t2 var
+R45397:45397 Top.Sub <> x var
+R45503:45512 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R45513:45527 Top.Sub <> appears_free_in ind
+R45532:45534 Top.Sub <> tif constr
+R45542:45543 Top.Sub <> t3 var
+R45539:45540 Top.Sub <> t2 var
+R45536:45537 Top.Sub <> t1 var
+R45529:45529 Top.Sub <> x var
+R45483:45497 Top.Sub <> appears_free_in ind
+R45501:45502 Top.Sub <> t3 var
+R45499:45499 Top.Sub <> x var
+R45567:45581 Top.Sub <> appears_free_in ind
+prf 45591:45608 <> context_invariance
+R45658:45667 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R45668:45668 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R45720:45730 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R45737:45740 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R45742:45746 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R45731:45736 Top.Sub <> Gamma' var
+R45741:45741 Top.Sub <> t var
+R45747:45747 Top.Sub <> S var
+R45698:45701 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R45709:45711 Coq.Init.Logic <> :type_scope:x_'='_x not
+R45702:45706 Top.Sub <> Gamma var
+R45708:45708 Top.Sub <> x var
+R45712:45717 Top.Sub <> Gamma' var
+R45719:45719 Top.Sub <> x var
+R45679:45693 Top.Sub <> appears_free_in ind
+R45697:45697 Top.Sub <> t var
+R45695:45695 Top.Sub <> x var
+R45647:45650 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R45652:45656 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R45642:45646 Top.Sub <> Gamma var
+R45651:45651 Top.Sub <> t var
+R45657:45657 Top.Sub <> S var
+R45874:45878 Top.Sub <> T_Var constr
+R45874:45878 Top.Sub <> T_Var constr
+R45928:45932 Top.Sub <> T_Abs constr
+R45928:45932 Top.Sub <> T_Abs constr
+R45982:45987 Top.Maps <> update def
+R45990:45997 Top.Maps <> t_update def
+R46010:46020 Top.Maps <> beq_stringP prfax
+R46010:46020 Top.Maps <> beq_stringP prfax
+R46056:46059 Top.Sub <> T_If constr
+R46056:46059 Top.Sub <> T_If constr
+prf 46077:46091 <> free_in_context
+R46137:46143 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R46160:46166 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R46167:46173 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R46176:46177 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R46185:46187 Coq.Init.Logic <> :type_scope:x_'='_x not
+R46178:46182 Top.Sub <> Gamma var
+R46184:46184 Top.Sub <> x var
+R46188:46191 Coq.Init.Datatypes <> Some constr
+R46193:46194 Top.Sub <> T' var
+R46149:46152 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R46154:46158 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R46144:46148 Top.Sub <> Gamma var
+R46153:46153 Top.Sub <> t var
+R46159:46159 Top.Sub <> T var
+R46118:46132 Top.Sub <> appears_free_in ind
+R46136:46136 Top.Sub <> t var
+R46134:46134 Top.Sub <> x var
+R46378:46383 Top.Maps <> update def
+R46386:46393 Top.Maps <> t_update def
+R46419:46438 Top.Maps <> beq_string_false_iff thm
+R46419:46438 Top.Maps <> beq_string_false_iff thm
+R46419:46438 Top.Maps <> beq_string_false_iff thm
+prf 46946:46974 <> substitution_preserves_typing
+R47035:47044 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R47061:47071 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R47077:47080 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R47088:47092 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R47072:47076 Top.Sub <> Gamma var
+R47081:47081 Top.Sub <> ::'['_x_':='_x_']'_x not
+R47083:47084 Top.Sub <> ::'['_x_':='_x_']'_x not
+R47086:47086 Top.Sub <> ::'['_x_':='_x_']'_x not
+R47082:47082 Top.Sub <> x var
+R47085:47085 Top.Sub <> v var
+R47087:47087 Top.Sub <> t var
+R47093:47093 Top.Sub <> S var
+R47050:47053 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R47055:47059 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R47045:47049 Top.Maps <> empty def
+R47054:47054 Top.Sub <> v var
+R47060:47060 Top.Sub <> U var
+R47024:47027 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R47029:47033 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R47012:47016 Top.Maps <> ::x_'&'_'{{'_x_'-->'_x_'}}' not
+R47018:47020 Top.Maps <> ::x_'&'_'{{'_x_'-->'_x_'}}' not
+R47022:47023 Top.Maps <> ::x_'&'_'{{'_x_'-->'_x_'}}' not
+R47007:47011 Top.Sub <> Gamma var
+R47017:47017 Top.Sub <> x var
+R47021:47021 Top.Sub <> U var
+R47028:47028 Top.Sub <> t var
+R47034:47034 Top.Sub <> S var
+R47286:47305 Top.Sub <> typing_inversion_var thm
+R47286:47305 Top.Sub <> typing_inversion_var thm
+R47359:47364 Top.Maps <> update def
+R47367:47374 Top.Maps <> t_update def
+R47399:47409 Top.Maps <> beq_stringP prfax
+R47399:47409 Top.Maps <> beq_stringP prfax
+R47521:47525 Top.Maps <> empty def
+R47497:47514 Top.Sub <> context_invariance thm
+R47521:47525 Top.Maps <> empty def
+R47497:47514 Top.Sub <> context_invariance thm
+R47566:47580 Top.Sub <> free_in_context thm
+R47588:47592 Top.Maps <> empty def
+R47566:47580 Top.Sub <> free_in_context thm
+R47588:47592 Top.Maps <> empty def
+R47674:47693 Top.Sub <> typing_inversion_app thm
+R47674:47693 Top.Sub <> typing_inversion_app thm
+R47754:47758 Top.Sub <> T_App constr
+R47754:47758 Top.Sub <> T_App constr
+R47831:47850 Top.Sub <> typing_inversion_abs thm
+R47831:47850 Top.Sub <> typing_inversion_abs thm
+R47920:47925 Top.Sub <> TArrow constr
+R47908:47912 Top.Sub <> T_Sub constr
+R47920:47925 Top.Sub <> TArrow constr
+R47908:47912 Top.Sub <> T_Sub constr
+R47943:47947 Top.Sub <> T_Abs constr
+R47943:47947 Top.Sub <> T_Abs constr
+R47966:47976 Top.Maps <> beq_stringP prfax
+R47966:47976 Top.Maps <> beq_stringP prfax
+R48026:48043 Top.Sub <> context_invariance thm
+R48026:48043 Top.Sub <> context_invariance thm
+R48089:48094 Top.Maps <> update def
+R48097:48104 Top.Maps <> t_update def
+R48123:48132 Top.Maps <> beq_string def
+R48123:48132 Top.Maps <> beq_string def
+R48183:48200 Top.Sub <> context_invariance thm
+R48183:48200 Top.Sub <> context_invariance thm
+R48233:48238 Top.Maps <> update def
+R48241:48248 Top.Maps <> t_update def
+R48267:48277 Top.Maps <> beq_stringP prfax
+R48267:48277 Top.Maps <> beq_stringP prfax
+R48317:48336 Top.Maps <> beq_string_false_iff thm
+R48317:48336 Top.Maps <> beq_string_false_iff thm
+R48317:48336 Top.Maps <> beq_string_false_iff thm
+R48396:48399 Top.Sub <> ::x_'<:'_x not
+R48391:48395 Top.Sub <> TBool constr
+R48421:48441 Top.Sub <> typing_inversion_true thm
+R48396:48399 Top.Sub <> ::x_'<:'_x not
+R48391:48395 Top.Sub <> TBool constr
+R48421:48441 Top.Sub <> typing_inversion_true thm
+R48494:48497 Top.Sub <> ::x_'<:'_x not
+R48489:48493 Top.Sub <> TBool constr
+R48519:48540 Top.Sub <> typing_inversion_false thm
+R48494:48497 Top.Sub <> ::x_'<:'_x not
+R48489:48493 Top.Sub <> TBool constr
+R48519:48540 Top.Sub <> typing_inversion_false thm
+R48617:48629 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R48601:48604 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R48607:48611 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R48589:48593 Top.Maps <> ::x_'&'_'{{'_x_'-->'_x_'}}' not
+R48595:48597 Top.Maps <> ::x_'&'_'{{'_x_'-->'_x_'}}' not
+R48599:48600 Top.Maps <> ::x_'&'_'{{'_x_'-->'_x_'}}' not
+R48612:48616 Top.Sub <> TBool constr
+R48659:48671 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R48647:48650 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R48653:48657 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R48635:48639 Top.Maps <> ::x_'&'_'{{'_x_'-->'_x_'}}' not
+R48641:48643 Top.Maps <> ::x_'&'_'{{'_x_'-->'_x_'}}' not
+R48645:48646 Top.Maps <> ::x_'&'_'{{'_x_'-->'_x_'}}' not
+R48689:48692 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R48695:48699 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R48677:48681 Top.Maps <> ::x_'&'_'{{'_x_'-->'_x_'}}' not
+R48683:48685 Top.Maps <> ::x_'&'_'{{'_x_'-->'_x_'}}' not
+R48687:48688 Top.Maps <> ::x_'&'_'{{'_x_'-->'_x_'}}' not
+R48719:48737 Top.Sub <> typing_inversion_if thm
+R48617:48629 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R48601:48604 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R48607:48611 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R48589:48593 Top.Maps <> ::x_'&'_'{{'_x_'-->'_x_'}}' not
+R48595:48597 Top.Maps <> ::x_'&'_'{{'_x_'-->'_x_'}}' not
+R48599:48600 Top.Maps <> ::x_'&'_'{{'_x_'-->'_x_'}}' not
+R48612:48616 Top.Sub <> TBool constr
+R48659:48671 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R48647:48650 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R48653:48657 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R48635:48639 Top.Maps <> ::x_'&'_'{{'_x_'-->'_x_'}}' not
+R48641:48643 Top.Maps <> ::x_'&'_'{{'_x_'-->'_x_'}}' not
+R48645:48646 Top.Maps <> ::x_'&'_'{{'_x_'-->'_x_'}}' not
+R48689:48692 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R48695:48699 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R48677:48681 Top.Maps <> ::x_'&'_'{{'_x_'-->'_x_'}}' not
+R48683:48685 Top.Maps <> ::x_'&'_'{{'_x_'-->'_x_'}}' not
+R48687:48688 Top.Maps <> ::x_'&'_'{{'_x_'-->'_x_'}}' not
+R48719:48737 Top.Sub <> typing_inversion_if thm
+R48891:48894 Top.Sub <> ::x_'<:'_x not
+R48886:48890 Top.Sub <> TUnit constr
+R48914:48934 Top.Sub <> typing_inversion_unit thm
+R48891:48894 Top.Sub <> ::x_'<:'_x not
+R48886:48890 Top.Sub <> TUnit constr
+R48914:48934 Top.Sub <> typing_inversion_unit thm
+prf 51739:51750 <> preservation
+R51790:51799 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R51808:51817 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R51823:51826 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R51829:51833 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R51818:51822 Top.Maps <> empty def
+R51827:51828 Top.Sub <> t' var
+R51834:51834 Top.Sub <> T var
+R51801:51805 Top.Sub <> ::x_'==>'_x not
+R51800:51800 Top.Sub <> t var
+R51806:51807 Top.Sub <> t' var
+R51779:51782 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R51784:51788 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R51774:51778 Top.Maps <> empty def
+R51783:51783 Top.Sub <> t var
+R51789:51789 Top.Sub <> T var
+R51886:51890 Top.Maps <> empty def
+R51886:51890 Top.Maps <> empty def
+R52114:52122 Top.Sub <> abs_arrow thm
+R52114:52122 Top.Sub <> abs_arrow thm
+R52165:52193 Top.Sub <> substitution_preserves_typing thm
+R52165:52193 Top.Sub <> substitution_preserves_typing thm
+mod 56796:56811 <> ProductExtension
+ind 56825:56826 ProductExtension ty
+constr 56842:56845 ProductExtension TTop
+constr 56858:56862 ProductExtension TBool
+constr 56874:56878 ProductExtension TBase
+constr 56900:56905 ProductExtension TArrow
+constr 56928:56932 ProductExtension TUnit
+constr 56944:56948 ProductExtension TProd
+R56851:56852 Top.Sub <> ty ind
+R56867:56868 Top.Sub <> ty ind
+R56889:56892 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R56893:56894 Top.Sub <> ty ind
+R56883:56888 Coq.Strings.String <> string ind
+R56911:56914 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R56917:56920 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R56921:56922 Top.Sub <> ty ind
+R56915:56916 Top.Sub <> ty ind
+R56909:56910 Top.Sub <> ty ind
+R56937:56938 Top.Sub <> ty ind
+R56954:56957 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R56960:56963 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R56964:56965 Top.Sub <> ty ind
+R56958:56959 Top.Sub <> ty ind
+R56952:56953 Top.Sub <> ty ind
+ind 56979:56980 ProductExtension tm
+constr 56996:56999 ProductExtension tvar
+constr 57020:57023 ProductExtension tapp
+constr 57046:57049 ProductExtension tabs
+constr 57082:57086 ProductExtension ttrue
+constr 57097:57102 ProductExtension tfalse
+constr 57113:57115 ProductExtension tif
+constr 57144:57148 ProductExtension tunit
+constr 57159:57163 ProductExtension tpair
+constr 57186:57189 ProductExtension tfst
+constr 57206:57209 ProductExtension tsnd
+R57009:57012 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R57013:57014 Top.Sub <> tm ind
+R57003:57008 Coq.Strings.String <> string ind
+R57029:57032 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R57035:57038 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R57039:57040 Top.Sub <> tm ind
+R57033:57034 Top.Sub <> tm ind
+R57027:57028 Top.Sub <> tm ind
+R57059:57062 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R57065:57068 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R57071:57074 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R57075:57076 Top.Sub <> tm ind
+R57069:57070 Top.Sub <> tm ind
+R57063:57064 Top.Sub ProductExtension ty ind
+R57053:57058 Coq.Strings.String <> string ind
+R57090:57091 Top.Sub <> tm ind
+R57106:57107 Top.Sub <> tm ind
+R57121:57124 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R57127:57130 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R57133:57136 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R57137:57138 Top.Sub <> tm ind
+R57131:57132 Top.Sub <> tm ind
+R57125:57126 Top.Sub <> tm ind
+R57119:57120 Top.Sub <> tm ind
+R57152:57153 Top.Sub <> tm ind
+R57169:57172 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R57175:57178 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R57179:57180 Top.Sub <> tm ind
+R57173:57174 Top.Sub <> tm ind
+R57167:57168 Top.Sub <> tm ind
+R57195:57198 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R57199:57200 Top.Sub <> tm ind
+R57193:57194 Top.Sub <> tm ind
+R57215:57218 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R57219:57220 Top.Sub <> tm ind
+R57213:57214 Top.Sub <> tm ind
+prf 57313:57320 ProductExtension progress
+R57357:57365 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R57373:57376 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R57366:57370 Top.Sub <> value ind
+R57372:57372 Top.Sub <> t var
+R57377:57383 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R57386:57387 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R57389:57393 Top.Sub <> ::x_'==>'_x not
+R57388:57388 Top.Sub <> t var
+R57394:57395 Top.Sub <> t' var
+R57346:57349 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R57351:57355 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R57341:57345 Top.Maps <> empty def
+R57350:57350 Top.Sub <> t var
+R57356:57356 Top.Sub <> T var
+prf 57445:57456 ProductExtension preservation
+R57496:57505 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R57514:57523 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R57529:57532 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R57535:57539 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R57524:57528 Top.Maps <> empty def
+R57533:57534 Top.Sub <> t' var
+R57540:57540 Top.Sub <> T var
+R57507:57511 Top.Sub <> ::x_'==>'_x not
+R57506:57506 Top.Sub <> t var
+R57512:57513 Top.Sub <> t' var
+R57485:57488 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R57490:57494 Top.Sub <> ::x_'|-'_x_'\in'_x not
+R57480:57484 Top.Maps <> empty def
+R57489:57489 Top.Sub <> t var
+R57495:57495 Top.Sub <> T var
+R57586:57601 Top.Sub ProductExtension <> mod
