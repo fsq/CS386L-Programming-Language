@@ -959,6 +959,23 @@ Proof.
   apply hoare_asgn.
   intros st H. unfold assn_sub. simpl. split;reflexivity.
 
+(*   assert ((fun _:state=>True) ->> (fun st=>1=1)).
+  intros st H. reflexivity.
+  assert ({{fun st=>1=1}} X::=1 {{fun st=>st X=1}}).
+  eapply hoare_consequence_pre. apply hoare_asgn.
+  unfold assn_sub. intros st Q. apply Q.
+  assert ((fun st=>st X=1) ->> (fun st=>st X=1/\2=2)).
+  intros st W. split. apply W. reflexivity.
+  assert ({{fun st=>st X=1/\2=2}} Y::=2 {{fun st : state => st X = 1 /\ st Y = 2}}).
+  eapply hoare_consequence_pre. apply hoare_asgn.
+  unfold assn_sub. intros st E. destruct E. split. apply H2. apply H3.
+  
+  assert ({{fun _ : state => 1 = 1}} X::=1 {{(fun st : state => st X = 1 /\ 2 = 2)}}).
+  eapply hoare_consequence_post. apply H0. apply H1.
+
+  assert ( {{fun _ : state => 1 = 1}} X::=1;;Y::=2 {{fun st : state => st X = 1 /\ st Y = 2}}).
+  eapply hoare_seq. apply H2. apply H3.
+  eapply hoare_consequence_pre. apply H4. apply H. *)
 Qed.
 (** [] *)
 
@@ -1086,8 +1103,17 @@ Proof.
   inversion HE; subst.
   - eapply HTrue. apply H5. unfold bassn.   
     split. assumption. assumption.
+(**    apply (HTrue st st').
+      assumption.
+      split. assumption.
+      apply bexp_eval_true. assumption.*)
   - eapply HFalse. apply H5. unfold not. unfold bassn. split.
-    assumption. intros G. rewrite H4 in G. inversion G. Qed.
+    assumption. intros G. rewrite H4 in G. inversion G.
+(* b is false *)
+(*    apply (HFalse st st').
+      assumption.
+      split. assumption.
+      apply bexp_eval_false. assumption.*) Qed.
 
 (* ----------------------------------------------------------------- *)
 (** *** Example *)
@@ -1580,7 +1606,8 @@ Qed.
     X ::= X - 1
   UNTIL X = 0 END
   {{ X = 0 /\ Y > 0 }}
-*)(*
+*)
+
 Example hoare_repeat_exam1 :  
   {{ fun st => st X > 0 }}
   REPEAT
@@ -1589,7 +1616,7 @@ Example hoare_repeat_exam1 :
   UNTIL BEq (AId X) (ANum 0) END
   {{ fun st => st X = 0 /\ st Y > 0 }}.
 Proof.
-  destruct (beq_string X Y) eqn:eqxy; inversion eqxy.
+  destruct (eq_id_dec X Y) eqn:eqxy; inversion eqxy.
   intros st st' H1 H2.
   assert (((fun st' => st' Y > 0 /\ st' Y = st' X + 1) st'  /\ bassn (BEq (AId X) (ANum 0)) st') -> st' X = 0 /\ st' Y > 0).
     intros [[Ha1 Ha2] Ha3].
@@ -1601,10 +1628,10 @@ Proof.
     Y ::= AId X;;
     X ::= AMinus (AId X) (ANum 1)
   UNTIL BEq (AId X) (ANum 0) END
-  {{fun st => (fun st' : string -> nat => st' Y > 0 /\ st' Y = st' X + 1) st /\
+  {{fun st => (fun st' : id -> nat => st' Y > 0 /\ st' Y = st' X + 1) st /\
     bassn (BEq (AId X) (ANum 0)) st}}).
   apply hoare_repeat.
--  unfold hoare_triple; intros.
+  unfold hoare_triple; intros.
   inversion H0; subst. inversion H7; subst.
   inversion H9; subst.
   rewrite update_neq; auto. rewrite update_eq.
@@ -1621,82 +1648,6 @@ Proof.
   reflexivity. unfold hoare_triple in H0.
   eapply H0. apply H1. assumption.
   Qed.
-
-1 subgoal
-eqxy : beq_string X Y = false
-st, st' : state
-H1 : (REPEAT Y ::= X;; X ::= X - 1
-      UNTIL X = 0 END) / st \\ st'
-H2 : st X > 0
-H : (fun st' : string -> nat =>
-     st' Y > 0 /\ st' Y = st' X + 1) st' /\
-    bassn (X = 0) st' ->
-    st' X = 0 /\ st' Y > 0
-______________________________________(1/1)
-{{fun st0 : state =>
-  (st0 Y > 0 /\ st0 Y = st0 X + 1) /\
-  ~ bassn (X = 0) st0}}
-Y ::= X;; X ::= X - 1
-{{fun st0 : state =>
-  st0 Y > 0 /\ st0 Y = st0 X + 1}}
-
-1 subgoal
-eqxy : beq_string X Y = false
-st, st' : state
-H1 : (REPEAT Y ::= X;; X ::= X - 1
-      UNTIL X = 0 END) / st \\ st'
-H2 : st X > 0
-H : (fun st' : string -> nat =>
-     st' Y > 0 /\ st' Y = st' X + 1) st' /\
-    bassn (X = 0) st' ->
-    st' X = 0 /\ st' Y > 0
-______________________________________(1/1)
-(st' Y > 0 /\ st' Y = st' X + 1) /\
-bassn (X = 0) st'
-
-
-*)
-Example hoare_repeat_example:
-  {{fun st=>st X > 0 }}
-  REPEAT
-    Y ::= X;;
-    X ::= X - 1
-  UNTIL X = 0 END
-  {{fun st=>st X = 0 /\st Y > 0 }}.
-Proof.
-  destruct (beq_string X Y) eqn:eqxy; 
-  try(apply beq_string_false_iff in eqxy);
-  try(apply beq_string_true_iff in eqxy). inversion eqxy.
-  intros st st' H1 H2.
-  assert (((fun st' => st' Y > 0 /\ st' Y = st' X + 1) st'  /\ bassn (X=0) st' ) -> st' X = 0 /\ st' Y > 0).
-  { intros;destruct H;destruct H;inversion H0;apply beq_nat_true in H5.  
-    split;omega. }
-  
-  apply H.
-  assert({{ fun st => st X > 0 }}
-  REPEAT
-    Y ::= X;;
-    X ::= X-1
-  UNTIL X=0 END
-  {{fun st => (fun st'=>st' Y > 0 /\ st' Y = st' X + 1) st /\ bassn (X=0) st}}).
-  { apply hoare_repeat.
-    - unfold hoare_triple; intros.
-      inversion H0; subst. inversion H7; subst. inversion H9; subst. 
-      rewrite t_update_neq. rewrite t_update_eq. simpl.
-      destruct (st0 X) eqn:stx. 
-      + inversion H3. exfalso. unfold not,bassn in H5.  
-        simpl in H5. rewrite stx in H5. apply H5. reflexivity.
-      + simpl. split. omega.
-        rewrite t_update_eq. rewrite t_update_neq. omega. auto.
-      + assumption.
-    -  unfold hoare_triple. intros.
-       inversion H0; subst. inversion H7; subst. inversion H9; subst.
-       rewrite t_update_neq; auto. rewrite t_update_eq; auto. split.
-       + simpl. assumption. 
-       + simpl. rewrite t_update_eq. rewrite t_update_neq; auto. omega. }
-   unfold hoare_triple in H0.
-    eapply H0. apply H1. assumption.
-Qed.
 
 End RepeatExercise.
 (** [] *)
@@ -1808,17 +1759,13 @@ Notation "{{ P }}  c  {{ Q }}" := (hoare_triple P c Q)
 (** Complete the Hoare rule for [HAVOC] commands below by defining
     [havoc_pre] and prove that the resulting rule is correct. *)
 
-Definition havoc_pre (X : string) (Q : Assertion) : Assertion :=
-  fun st => forall n, Q (st & {X-->n}).
+Definition havoc_pre (X : string) (Q : Assertion) : Assertion 
+  (* REPLACE THIS LINE WITH ":= _your_definition_ ." *). Admitted.
 
 Theorem hoare_havoc : forall (Q : Assertion) (X : string),
   {{ havoc_pre X Q }} HAVOC X {{ Q }}.
 Proof.
-  intros.
-  unfold hoare_triple. intros.
-  unfold havoc_pre in H0. inversion H;subst.
-  apply H0.
-Qed.
+  (* FILL IN HERE *) Admitted.
 
 End Himp.
 (** [] *)
