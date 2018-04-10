@@ -1,6 +1,5 @@
 (** * Smallstep: Small-step Operational Semantics *)
 
-Add LoadPath "~/Desktop/CS386L-Programming-Language/plf".
 Set Warnings "-notation-overridden,-parsing".
 Require Import Coq.Arith.Arith.
 Require Import Coq.Arith.EqNat.
