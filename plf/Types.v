@@ -9,7 +9,7 @@
     on to the _simply typed lambda-calculus_, which lives at the core
     of every modern functional programming language (including
     Coq!). *)
-
+Add LoadPath "~/Desktop/CS386L-Programming-Language/plf".
 Set Warnings "-notation-overridden,-parsing".
 Require Import Coq.Arith.Arith.
 Require Import Maps.
