@@ -1,0 +1,391 @@
+DIGEST 8d13a5b93da70a12a560e55c69822150
+Fboard
+ind 64:66 <> sym
+constr 82:82 <> X
+constr 94:94 <> O
+constr 106:106 <> E
+R86:88 board <> sym ind
+R98:100 board <> sym ind
+R110:112 board <> sym ind
+ind 126:131 <> sym_eq
+constr 156:158 <> eqX
+constr 177:179 <> eqO
+constr 198:200 <> eqE
+R137:138 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R142:143 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R139:141 board <> sym ind
+R134:136 board <> sym ind
+R162:167 board <> sym_eq ind
+R171:171 board <> X constr
+R169:169 board <> X constr
+R183:188 board <> sym_eq ind
+R192:192 board <> O constr
+R190:190 board <> O constr
+R204:209 board <> sym_eq ind
+R213:213 board <> E constr
+R211:211 board <> E constr
+def 228:234 <> beq_sym
+R241:243 board <> sym ind
+R248:251 Coq.Init.Datatypes <> bool ind
+R266:266 board <> y var
+R264:264 board <> x var
+R277:277 board <> X constr
+R279:279 board <> X constr
+R285:285 board <> O constr
+R287:287 board <> O constr
+R293:293 board <> E constr
+R295:295 board <> E constr
+R300:303 Coq.Init.Datatypes <> true constr
+R300:303 Coq.Init.Datatypes <> true constr
+R300:303 Coq.Init.Datatypes <> true constr
+R315:319 Coq.Init.Datatypes <> false constr
+def 340:344 <> beq_E
+R349:351 board <> sym ind
+R355:358 Coq.Init.Datatypes <> bool ind
+R363:369 board <> beq_sym def
+R373:373 board <> E constr
+R371:371 board <> x var
+R395:397 board <> sym ind
+ind 577:581 <> board
+constr 596:597 <> bd
+R602:603 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R607:608 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R612:613 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R617:618 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R622:623 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R627:628 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R632:633 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R637:638 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R642:643 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R644:648 board <> board ind
+R639:641 board <> sym ind
+R634:636 board <> sym ind
+R629:631 board <> sym ind
+R624:626 board <> sym ind
+R619:621 board <> sym ind
+R614:616 board <> sym ind
+R609:611 board <> sym ind
+R604:606 board <> sym ind
+R599:601 board <> sym ind
+def 663:673 <> empty_board
+R679:680 board <> bd constr
+R698:698 board <> E constr
+R696:696 board <> E constr
+R694:694 board <> E constr
+R692:692 board <> E constr
+R690:690 board <> E constr
+R688:688 board <> E constr
+R686:686 board <> E constr
+R684:684 board <> E constr
+R682:682 board <> E constr
+ind 712:715 <> cell
+constr 730:732 <> c00
+constr 745:747 <> c01
+constr 760:762 <> c02
+constr 775:777 <> c10
+constr 790:792 <> c11
+constr 805:807 <> c12
+constr 820:822 <> c20
+constr 835:837 <> c21
+constr 850:852 <> c22
+R736:739 board <> cell ind
+R751:754 board <> cell ind
+R766:769 board <> cell ind
+R781:784 board <> cell ind
+R796:799 board <> cell ind
+R811:814 board <> cell ind
+R826:829 board <> cell ind
+R841:844 board <> cell ind
+R856:859 board <> cell ind
+ind 873:879 <> cell_eq
+constr 906:909 <> eq00
+constr 932:935 <> eq01
+constr 958:961 <> eq02
+constr 984:987 <> eq10
+constr 1010:1013 <> eq11
+constr 1036:1039 <> eq12
+constr 1062:1065 <> eq20
+constr 1088:1091 <> eq21
+constr 1114:1117 <> eq22
+R886:887 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R892:893 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R888:891 board <> cell ind
+R882:885 board <> cell ind
+R912:918 board <> cell_eq ind
+R924:926 board <> c00 constr
+R920:922 board <> c00 constr
+R938:944 board <> cell_eq ind
+R950:952 board <> c01 constr
+R946:948 board <> c01 constr
+R964:970 board <> cell_eq ind
+R976:978 board <> c02 constr
+R972:974 board <> c02 constr
+R990:996 board <> cell_eq ind
+R1002:1004 board <> c10 constr
+R998:1000 board <> c10 constr
+R1016:1022 board <> cell_eq ind
+R1028:1030 board <> c11 constr
+R1024:1026 board <> c11 constr
+R1042:1048 board <> cell_eq ind
+R1054:1056 board <> c12 constr
+R1050:1052 board <> c12 constr
+R1068:1074 board <> cell_eq ind
+R1080:1082 board <> c20 constr
+R1076:1078 board <> c20 constr
+R1094:1100 board <> cell_eq ind
+R1106:1108 board <> c21 constr
+R1102:1104 board <> c21 constr
+R1120:1126 board <> cell_eq ind
+R1132:1134 board <> c22 constr
+R1128:1130 board <> c22 constr
+def 1149:1151 <> isE
+R1156:1160 board <> board ind
+R1166:1169 board <> cell ind
+R1188:1188 board <> b var
+R1199:1200 board <> bd constr
+R1250:1250 board <> c var
+R1263:1265 board <> c00 constr
+R1270:1275 board <> sym_eq ind
+R1281:1281 board <> E constr
+R1289:1291 board <> c01 constr
+R1296:1301 board <> sym_eq ind
+R1307:1307 board <> E constr
+R1315:1317 board <> c02 constr
+R1322:1327 board <> sym_eq ind
+R1333:1333 board <> E constr
+R1341:1343 board <> c10 constr
+R1348:1353 board <> sym_eq ind
+R1359:1359 board <> E constr
+R1367:1369 board <> c11 constr
+R1374:1379 board <> sym_eq ind
+R1385:1385 board <> E constr
+R1393:1395 board <> c12 constr
+R1400:1405 board <> sym_eq ind
+R1411:1411 board <> E constr
+R1419:1421 board <> c20 constr
+R1426:1431 board <> sym_eq ind
+R1437:1437 board <> E constr
+R1445:1447 board <> c21 constr
+R1452:1457 board <> sym_eq ind
+R1463:1463 board <> E constr
+R1471:1473 board <> c22 constr
+R1478:1483 board <> sym_eq ind
+R1489:1489 board <> E constr
+ind 1517:1520 <> step
+constr 1536:1537 <> st
+R1545:1546 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1550:1551 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1552:1555 board <> step ind
+R1547:1549 board <> sym ind
+R1541:1544 board <> cell ind
+def 1570:1580 <> valid_round
+R1585:1589 board <> board ind
+R1597:1600 board <> step ind
+R1622:1622 board <> y var
+R1620:1620 board <> x var
+R1633:1634 board <> st constr
+R1643:1644 board <> st constr
+R1657:1657 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R1669:1673 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R1658:1663 board <> sym_eq ind
+R1668:1668 board <> X constr
+R1674:1674 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R1686:1693 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R1675:1680 board <> sym_eq ind
+R1685:1685 board <> O constr
+R1694:1694 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R1714:1721 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R1695:1697 Coq.Init.Logic <> not def
+R1700:1706 board <> cell_eq ind
+R1722:1722 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R1731:1736 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R1745:1745 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R1723:1725 board <> isE def
+R1727:1727 board <> b var
+R1737:1739 board <> isE def
+R1741:1741 board <> b var
+def 1790:1799 <> valid_move
+R1804:1808 board <> board ind
+R1814:1817 board <> step ind
+R1837:1837 board <> x var
+R1848:1849 board <> st constr
+R1858:1858 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R1869:1874 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R1882:1882 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R1859:1864 board <> sym_eq ind
+R1868:1868 board <> X constr
+R1875:1877 board <> isE def
+R1879:1879 board <> b var
+def 1903:1906 <> move
+R1911:1915 board <> board ind
+R1922:1925 board <> step ind
+R1929:1933 board <> board ind
+R1946:1947 board <> st var
+R1958:1959 board <> st constr
+R1975:1975 board <> b var
+R1986:1987 board <> bd constr
+R2050:2052 board <> c00 constr
+R2057:2058 board <> bd constr
+R2100:2102 board <> c01 constr
+R2107:2108 board <> bd constr
+R2150:2152 board <> c02 constr
+R2157:2158 board <> bd constr
+R2200:2202 board <> c10 constr
+R2207:2208 board <> bd constr
+R2250:2252 board <> c11 constr
+R2257:2258 board <> bd constr
+R2300:2302 board <> c12 constr
+R2307:2308 board <> bd constr
+R2350:2352 board <> c20 constr
+R2357:2358 board <> bd constr
+R2400:2402 board <> c21 constr
+R2407:2408 board <> bd constr
+R2450:2452 board <> c22 constr
+R2457:2458 board <> bd constr
+ind 2526:2530 <> state
+constr 2546:2548 <> win
+constr 2562:2565 <> lose
+constr 2578:2580 <> tie
+constr 2594:2603 <> incomplete
+R2552:2556 board <> state ind
+R2568:2572 board <> state ind
+R2584:2588 board <> state ind
+R2606:2610 board <> state ind
+def 2626:2636 <> final_x_win
+R2641:2645 board <> board ind
+R2650:2653 Coq.Init.Datatypes <> bool ind
+R2666:2666 board <> b var
+R2677:2678 board <> bd constr
+R2680:2680 board <> X constr
+R2686:2686 board <> X constr
+R2692:2692 board <> X constr
+R2701:2704 Coq.Init.Datatypes <> true constr
+R2710:2711 board <> bd constr
+R2715:2715 board <> X constr
+R2721:2721 board <> X constr
+R2727:2727 board <> X constr
+R2734:2737 Coq.Init.Datatypes <> true constr
+R2743:2744 board <> bd constr
+R2750:2750 board <> X constr
+R2756:2756 board <> X constr
+R2762:2762 board <> X constr
+R2767:2770 Coq.Init.Datatypes <> true constr
+R2776:2777 board <> bd constr
+R2779:2779 board <> X constr
+R2781:2781 board <> X constr
+R2783:2783 board <> X constr
+R2800:2803 Coq.Init.Datatypes <> true constr
+R2809:2810 board <> bd constr
+R2818:2818 board <> X constr
+R2820:2820 board <> X constr
+R2822:2822 board <> X constr
+R2833:2836 Coq.Init.Datatypes <> true constr
+R2842:2843 board <> bd constr
+R2857:2857 board <> X constr
+R2859:2859 board <> X constr
+R2861:2861 board <> X constr
+R2866:2869 Coq.Init.Datatypes <> true constr
+R2875:2876 board <> bd constr
+R2878:2878 board <> X constr
+R2886:2886 board <> X constr
+R2894:2894 board <> X constr
+R2899:2902 Coq.Init.Datatypes <> true constr
+R2908:2909 board <> bd constr
+R2915:2915 board <> X constr
+R2919:2919 board <> X constr
+R2923:2923 board <> X constr
+R2932:2935 Coq.Init.Datatypes <> true constr
+R2941:2942 board <> bd constr
+R2965:2969 Coq.Init.Datatypes <> false constr
+def 2990:3000 <> final_o_win
+R3005:3009 board <> board ind
+R3014:3017 Coq.Init.Datatypes <> bool ind
+R3030:3030 board <> b var
+R3041:3042 board <> bd constr
+R3044:3044 board <> O constr
+R3050:3050 board <> O constr
+R3056:3056 board <> O constr
+R3065:3068 Coq.Init.Datatypes <> true constr
+R3074:3075 board <> bd constr
+R3079:3079 board <> O constr
+R3085:3085 board <> O constr
+R3091:3091 board <> O constr
+R3098:3101 Coq.Init.Datatypes <> true constr
+R3107:3108 board <> bd constr
+R3114:3114 board <> O constr
+R3120:3120 board <> O constr
+R3126:3126 board <> O constr
+R3131:3134 Coq.Init.Datatypes <> true constr
+R3140:3141 board <> bd constr
+R3143:3143 board <> O constr
+R3145:3145 board <> O constr
+R3147:3147 board <> O constr
+R3164:3167 Coq.Init.Datatypes <> true constr
+R3173:3174 board <> bd constr
+R3182:3182 board <> O constr
+R3184:3184 board <> O constr
+R3186:3186 board <> O constr
+R3197:3200 Coq.Init.Datatypes <> true constr
+R3206:3207 board <> bd constr
+R3221:3221 board <> O constr
+R3223:3223 board <> O constr
+R3225:3225 board <> O constr
+R3230:3233 Coq.Init.Datatypes <> true constr
+R3239:3240 board <> bd constr
+R3242:3242 board <> O constr
+R3250:3250 board <> O constr
+R3258:3258 board <> O constr
+R3263:3266 Coq.Init.Datatypes <> true constr
+R3272:3273 board <> bd constr
+R3279:3279 board <> O constr
+R3283:3283 board <> O constr
+R3287:3287 board <> O constr
+R3296:3299 Coq.Init.Datatypes <> true constr
+R3305:3306 board <> bd constr
+R3329:3333 Coq.Init.Datatypes <> false constr
+def 3354:3362 <> has_empty
+R3367:3371 board <> board ind
+R3376:3379 Coq.Init.Datatypes <> bool ind
+R3392:3392 board <> b var
+R3403:3404 board <> bd constr
+R3450:3454 board <> beq_E def
+R3483:3487 board <> beq_E def
+R3516:3520 board <> beq_E def
+R3549:3553 board <> beq_E def
+R3582:3586 board <> beq_E def
+R3615:3619 board <> beq_E def
+R3648:3652 board <> beq_E def
+R3681:3685 board <> beq_E def
+R3714:3718 board <> beq_E def
+R3740:3744 Coq.Init.Datatypes <> false constr
+R3730:3733 Coq.Init.Datatypes <> true constr
+R3697:3700 Coq.Init.Datatypes <> true constr
+R3664:3667 Coq.Init.Datatypes <> true constr
+R3631:3634 Coq.Init.Datatypes <> true constr
+R3598:3601 Coq.Init.Datatypes <> true constr
+R3565:3568 Coq.Init.Datatypes <> true constr
+R3532:3535 Coq.Init.Datatypes <> true constr
+R3499:3502 Coq.Init.Datatypes <> true constr
+R3466:3469 Coq.Init.Datatypes <> true constr
+def 3765:3773 <> get_state
+R3778:3782 board <> board ind
+R3787:3791 board <> state ind
+R3802:3812 board <> final_x_win def
+R3814:3814 board <> b var
+R3842:3852 board <> final_o_win def
+R3854:3854 board <> b var
+R3882:3890 board <> has_empty def
+R3892:3892 board <> b var
+R3926:3928 board <> tie constr
+R3904:3913 board <> incomplete constr
+R3866:3869 board <> lose constr
+R3827:3829 board <> win constr
+prf 3940:3949 <> sym_eq_iff
+R3965:3967 board <> sym ind
+R3983:3986 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3988:3988 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3987:3987 board <> x var
+R3989:3989 board <> y var
+R3973:3978 board <> sym_eq ind
+R3982:3982 board <> y var
+R3980:3980 board <> x var

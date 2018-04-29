@@ -12,6 +12,7 @@
     _variable binding_ and _substitution_.  It which will take some
     work to deal with these. *)
 
+Add LoadPath "~/Desktop/CS386L-Programming-Language/plf".
 Set Warnings "-notation-overridden,-parsing".
 Require Import Maps.
 Require Import Smallstep.
