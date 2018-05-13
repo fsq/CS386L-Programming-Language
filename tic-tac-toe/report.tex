@@ -1,0 +1,58 @@
+\documentclass{article}
+
+\begin{document}
+\begin{center}
+	\Huge{Formal Proof of Tic-Tac-Toe's Perfect Strategy}
+	
+	\Large{Shuangquan Feng}
+\end{center}
+
+\section{Introduction}
+Tic-tac-toe is a game for two players, who take turns marking the spaces in a 3$\times$3 grid with $X$s and $O$s. The player who succeeds in placing three of their marks in a horizontal, vertical or diagonal lines wins the game.
+
+Here we prove the existence of a perfect strategy for the first player, i.e. the first player can always win or tie the game.
+
+\section{Definitions}
+The complete definitions in this part are in $\texttt{board.v}$.
+\subsection{Symbols and Cells}
+We can define a type $\texttt{sym}$ to denote the three possible symbols on the board : $\texttt{X}$, $\texttt{O}$ and $\texttt{E}$ for empty.
+
+Define a $\texttt{board}$ type consists of 9 symbols, i.e.$\texttt{sym}\rightarrow\texttt{sym}\rightarrow\texttt{sym}\rightarrow\texttt{sym}\rightarrow\texttt{sym}\rightarrow\texttt{sym}\rightarrow\texttt{sym}\rightarrow\texttt{sym}\rightarrow\texttt{sym}\rightarrow\texttt{board}$.
+
+Define the names of 9 cells on the board: $\texttt{cell}$:= $\texttt{c00}$, $\texttt{c01}$, $\texttt{c02}$, $\texttt{c10}$, $\texttt{c11}$,  $\texttt{c12}$, $\texttt{c20}$, $\texttt{c21}$, $\texttt{c22}$.
+
+\subsection{Step}
+Define a step taken by a player: $\texttt{step}$ := $\texttt{cell}\rightarrow\texttt{sym}\rightarrow\texttt{step}$. Meaning mark a cell with symbol.
+
+A round consists of one step for both players. For a round to be valid, two steps must have different symbols and cell names. Plus both cells are empty. Define a function $\texttt{valid\_round}$ that takes $\texttt{b:board}$ and $\texttt{x y:step}$ and return the corresponding proposition.
+	
+\subsection{States}
+For any board, there are four possible states: win, lose, tie and incomplete. Each board corresponds to exactly one state. 
+
+	win: player1 wins. Namely there are three $X$s in a row.	
+	
+	lose: player1 loses. Namely there are three $O$s in a row.
+	
+	tie: no one wins and there are no empty cells on the board.
+	
+	incomplete: no one wins yet and there are empty cells on the board.
+	
+	Define a function $\texttt{get\_state}$ takes a $\texttt{board}$ type as the parameter and returns a type $\texttt{state}$.
+	
+\section{Proof Sketch}
+The complete proof is in $\texttt{tic-tac-toe.v}$.
+
+To formalize the perfection of a strategy, we define a board to be $\texttt{safe}$ if either 
+\begin{itemize}
+	\item Player1 wins or ties and player2 doesn't win.
+	\item There exists a step for player1 where either player1 directly wins or ties the game, or for any steps player2 could make, the resulting board is safe.			
+\end{itemize}
+
+Finally the main theorem we want to prove is that $empty$ $board$ $is$ $safe$. Consequently the player1 has a perfect strategy to always win or tie.
+
+The intuition of the strategy is straightforward: player1 takes the top-left corner at first, then try to take the center of the board, finally one of the empty corners. Meanwhile player1 should block player2 if losing. The detailed variations are elaborated in the formal proof.
+
+\section{Conclusion}
+In conclusion, we used coq to formally prove the existence of a perfect strategy for the first player in the tic-tac-toe game.
+
+\end{document}
